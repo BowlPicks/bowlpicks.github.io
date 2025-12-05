@@ -269,17 +269,20 @@
         background-position: center;
       }
       #preloader-text {
-        font-size: 63px;
-        -webkit-text-stroke: 7px rgb(128, 0, 22, 0.8);
-        color: transparent;
+        font-size: 97px;
+        -webkit-text-stroke: 2px #a89968;
+        color: rgb(128, 0, 22, .7);
         text-transform: uppercase;
         display: flex;
         flex-direction: column;
-        bottom: 5%;
+        bottom: 4%;
         position: fixed;
         align-items: center;
         justify-content: center;
         align-content: center;
+        text-align: center;
+        line-height: .8;
+        font-weight: bolder;
       }
 
       .preloader-fade-out {
@@ -288,7 +291,7 @@
         transform: scale(54) translateY(-255px);
       }
 
-      /* .d3l-logo {
+      /* .Bowl Picks-logo {
         filter: drop-shadow(0px 0px 9px #c31632) drop-shadow(0px 0px 13px #000);
         object-fit: contain;
         height: 206px;
@@ -321,10 +324,10 @@
   ======================== -->
   <div id="install-banner" role="dialog" aria-labelledby="install-banner-title">
     <h3 id="install-banner-title">
-      <img src="BowlLogo.png" class="install-icon-header" alt="D3L Logo">
+      <img src="BowlLogo.png" class="install-icon-header" alt="Bowl Picks Logo">
       Install this Dong on your device.
     </h3>
-    <!-- <p style="margin: 5px;">Add 'D3L' to Home Screen for the best experience</p> -->
+    <!-- <p style="margin: 5px;">Add 'Bowl Picks' to Home Screen for the best experience</p> -->
     <button id="install-button" aria-label="Add app to home screen">ADD</button>
     <button id="dismiss-button" aria-label="Dismiss install prompt">DISMISS</button>
   </div>
@@ -341,8 +344,8 @@
       </svg>
     </button>
     <h3 id="ios-install-banner-title">
-      <img src="BowlLogo.png" class="install-icon-header" alt="D3L Logo">
-      Install 'D3L' on your device.
+      <img src="BowlLogo.png" class="install-icon-header" alt="Bowl Picks Logo">
+      Install 'Bowl Picks' on your device.
     </h3>
     <p class="install-details">
       1. Tap the <strong>Share</strong> icon.
