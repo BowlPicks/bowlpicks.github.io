@@ -265,7 +265,7 @@
         transition: all 1.5s ease-in-out;
         background: url(https://raw.githubusercontent.com/BowlPicks/bowlpicks.github.io/refs/heads/main/BowlLoaderImage.jpeg);
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: cover;
         background-position: center;
       }
 
@@ -275,7 +275,7 @@
         transform: scale(54) translateY(-255px);
       }
 
-      .d3l-logo {
+      /* .d3l-logo {
         filter: drop-shadow(0px 0px 9px #95c845) drop-shadow(0px 0px 13px #000);
         object-fit: contain;
         height: 206px;
@@ -284,7 +284,7 @@
         background: transparent;
         opacity: 0;
         animation: fadeIn 1s cubic-bezier(0.4, 0, 1, 1) forwards;
-      }
+      } */
 
       @keyframes fadeIn {
         from { opacity: 0; transform: translateY(5px); }
@@ -299,14 +299,12 @@
 
   
   <div id="preloader">
-    <img src="D3L.png" class="d3l-logo" alt="D3L Logo">
-<!--     <div id="preloader-text">
-      <span class="top-text">125th</span>
+    <div id="preloader-text">
+      <span class="text">Bowl Season</span>
        </br>
-        <span class="us-text">US</span><span class="open-text">OPEN</span>
-        </br>
-        <span class="course-text">Oakmont Country Club • Oakmont, Pa. • June 12 - 15</span>
-    </div> -->
+        <span class="text">2025
+        </span>
+    </div>
   </div>
 
   <!-- =======================
